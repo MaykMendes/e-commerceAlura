@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@
     align-items: center;
 }
 
-.nav-pesquisa{
+.nav-pesquisa{ 
     padding-left: 3em;
 }
 
@@ -64,9 +66,10 @@
 }
 
 .banner-anuncio {
+    
    position: relative;
     padding-top: 10em;
-    padding-left: 1em;
+    padding-left: 4em;
 }
 
 .banner-anuncio > h1, h2{
@@ -94,7 +97,8 @@
     cursor: pointer;
     text-decoration: none;
     margin-top: .3em;
-    position: fixed;
+
+    
 }
 
 .banner-anuncio >a:hover{
@@ -102,3 +106,53 @@
     color: rgb(0, 140, 255);
 }
 
+/*Products ----------*/
+.product-main{
+    background-color: #E5E5E5;
+    padding-top: 8em;
+}
+
+.product-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 55em;
+}
+
+.product-description > h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+.product-description > a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+.produ{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.product {
+    padding-bottom: 6em;
+}
+
+.product > figure{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+}
+
+.product > figure > a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+.product-img{
+    height: 190px;
+    width: 190px;
+}
